@@ -107,4 +107,5 @@ footer{margin-top:clamp(80px,10vw,140px);border-top:1px solid var(--line);paddin
   .vid-lg .meta h3{margin-top:16px}
   .facts{grid-template-columns:1fr 1fr 1fr}
 }
+@media(max-width:600px){.projects{grid-template-columns:1fr 1fr;gap:10px}.proj div{left:12px;right:12px;bottom:12px}.proj h3{font-size:15px;line-height:1.25}.proj p{font-size:10px;letter-spacing:.08em}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.hero video{display:none}.hero{background:url(media/img/hero-poster.jpg) center/cover}}
